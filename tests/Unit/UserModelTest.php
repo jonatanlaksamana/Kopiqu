@@ -18,6 +18,6 @@ class UserModelTest extends TestCase
     {
 
         $users  = User::all();
-        $this->assertCount(1,$users);
+        $this->assertCount(4,$users);
     }
 }
