@@ -1,6 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.PublicTemplate')
 
 @section('content')
+    <div id="home" style="margin-top: 10%" class="slider-area">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -63,7 +64,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button style="margin-left: 100%" type="submit" class="btn btn-primary ">
                                     {{ __('Register') }}
                                 </button>
                             </div>
@@ -74,4 +75,5 @@
         </div>
     </div>
 </div>
+    </div>
 @endsection

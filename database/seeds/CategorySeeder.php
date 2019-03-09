@@ -31,7 +31,9 @@ class CategorySeeder extends Seeder
         DB::table('categories')->insert([
             'name' => 'Brazilian Espresso',
             'parent_id' => 1,
+
             'desc'=> '',
+            'image' => '1.jpg',
 
         ]);
 
@@ -39,7 +41,9 @@ class CategorySeeder extends Seeder
         DB::table('categories')->insert([
             'name' => 'Brazilian Latte',
             'parent_id' => 1,
+
             'desc'=> '',
+            'image' => '2.jpg',
 
         ]);
 
@@ -48,6 +52,7 @@ class CategorySeeder extends Seeder
             'name' => 'CoffeLuak',
             'parent_id' => 2,
             'desc'=> '',
+            'image' => '3.jpg',
 
         ]);
     }
