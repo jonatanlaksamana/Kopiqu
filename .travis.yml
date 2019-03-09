@@ -1,20 +1,25 @@
 language: php
 
 php:
-  -7.2
+  - 7.0
+  - 7.1
 
 before_script:
   - cp .env.travis .env
-  - composer self update
+  - composer self-update
   - composer install --prefer-source --no-interaction --dev
   - php artisan key:generate
+  - php artisan jwt:generate
   - php artisan migrate --seed
 
 before_install:
-  - mysql -e 'create database kopiqu;'
+  - mysql -e 'CREATE DATABASE kopiqu;'
+
+script:
+  - phpunit
 
 services:
   - mysql
 
-script:
-  - vendor/bin/phpunit
+notifications:
+email: false
