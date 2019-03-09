@@ -8,7 +8,7 @@ before_script:
   - cp .env.travis .env
   - mysql -e 'CREATE DATABASE IF NOT EXISTS kopiqu;'
   -  mysql -e 'USE kopiqu;create table users(id int,email varchar(256),role varchar(256));'
-  - - mysql -e "USE kopiqu; insert into users values ('1' , 'testemail@test.com' , 'admin1');"
+  -  mysql -e "USE kopiqu; insert into users values ('1' , 'testemail@test.com' , 'admin1');"
 
 
 script:
