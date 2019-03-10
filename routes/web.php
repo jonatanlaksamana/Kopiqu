@@ -15,6 +15,7 @@
 
 
 Auth::routes();
-Route::get('/','InterfaceController@index');
+//Route::get('/','InterfaceController@index')->name('index');
+Route::get('/','InterfaceController@index')->name('index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'AdminController@index')->middleware('admin')->name('admin.panel');

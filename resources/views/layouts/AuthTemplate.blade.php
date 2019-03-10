@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Sally Coffe</title>
-{{--css load--}}
-@extends('layouts.PageFoundation.CssLoad')
+    {{--css load--}}
+    @extends('layouts.PageFoundation.CssLoad')
 
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
@@ -41,17 +41,9 @@
                         <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="active">
-                                    <a class="page-scroll" href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a class="page-scroll" href="#about">About</a>
-                                </li>
-                                <li>
-                                    <a class="page-scroll" href="#services">Services</a>
+                                    <a class="page-scroll" href="{{route('index')}}">Home</a>
                                 </li>
 
-                                <li>
-                                    <a class="page-scroll" href="#product">Product</a>
                                 </li>
                                 @guest
                                     <li class="nav-item">
@@ -63,22 +55,23 @@
                                         </li>
                                     @endif
                                 @else
-                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> {{ Auth::user()->name }}<span class="caret"></span></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li> <a class="dropdown-item" href="{{ route('logout') }}"
-                                                    onclick="event.preventDefault();
+                                    <li class="nav-item dropdown">
+                                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                            {{ Auth::user()->name }} <span class="caret"></span>
+                                        </a>
+
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                               onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                                    {{ __('Logout') }}
+                                                {{ __('Logout') }}
+                                            </a>
 
-                                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                                        @csrf
-                                                    </form>
-
-                                                </a></li>
-
-                                        </ul>
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                @csrf
+                                            </form>
+                                        </div>
                                     </li>
-
                                 @endguest
                             </ul>
                         </div>

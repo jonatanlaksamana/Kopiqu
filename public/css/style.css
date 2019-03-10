@@ -2308,6 +2308,13 @@ span.email-notes {
   height: 130px;
   width: 100%;
 }
+footer{
+    position: relative;
+    margin-top: 20%; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+}
 
 .comment-respond input[type="submit"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;

@@ -1,7 +1,7 @@
-@extends('layouts.PublicTemplate')
+@extends('layouts.AuthTemplate')
 
 @section('content')
-    <div id="home" style="margin-top: 10%" class="slider-area">
+    <div id="about" style="margin-top: 10%" class="">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

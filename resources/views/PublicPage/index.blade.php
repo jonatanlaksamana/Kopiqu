@@ -147,13 +147,13 @@
 
 
 
-<!-- Start portfolio Area -->
-<div id="portfolio" class="portfolio-area area-padding fix">
+<!-- Start products Area -->
+<div id="product" class="portfolio-area area-padding fix">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="section-headline text-center">
-                    <h2>Our Portfolio</h2>
+                    <h2>Our Product</h2>
                     <p class="lead">take a peek of our coffe</p>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                             <li>
                                 <a href="#" class="active" data-filter="*">All</a>
                             </li>
-                            @foreach($categories as $parent)
+                            @foreach($prodcuts as $parent)
                                 <li>
                                     <a href="#" data-filter=".{{$parent->id}}">{{$parent->name}}</a>
                                 </li>
@@ -180,15 +180,15 @@
             </div>
             <div class="awesome-project-content">
                 <!-- single-awesome-project start -->
-                @foreach($categories as $parent)
+                @foreach($prodcuts as $parent)
                     @foreach($parent->children  as $child)
                         <div class="col-md-4 col-sm-4 col-xs-12 design {{$child->parent_id}}">
                             <div class="single-awesome-project">
                                 <div class="awesome-img">
-                                    <a href="#"><img src="{{asset('storage/img/portfolio/' .$child->image)}}" alt="" /></a>
+                                    <a href="#"><img src="{{asset('/storage/img/products/' .$child->image)}}" alt="" /></a>
                                     <div class="add-actions text-center">
                                         <div class="project-dec">
-                                            <a class="venobox" data-gall="myGallery" href="{{asset('storage/img/portfolio/' . $child->image)}}">
+                                            <a class="venobox" data-gall="myGallery" href="{{asset('/storage/img/products/' . $child->image)}}">
                                                 <h4>{{$child->name}}</h4>
 
                                             </a>
