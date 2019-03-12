@@ -1,4 +1,7 @@
 @extends('layouts.PublicTemplate')
+<style>
+
+</style>
 @section('content')
 
 
@@ -139,7 +142,7 @@
         <div class="work-right-text text-center">
             <h2>What do you waiting for</h2>
             <h5>Come Order our Coffe !</h5>
-            <a href="#contact" class="ready-btn">Order Now</a>
+            <a href="{{route('order.view')}}" class="ready-btn">Order Now</a>
         </div>
     </div>
 </div>
@@ -215,7 +218,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
                 <div class="suscribe-text text-center">
                     <h3>Well what do you waiting for!!, come order now</h3>
-                    <a class="sus-btn" href="#">Order!</a>
+                    <a class="sus-btn" href="{{route('order.view')}}">Order!</a>
                 </div>
             </div>
         </div>

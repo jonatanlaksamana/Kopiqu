@@ -18,6 +18,12 @@ class ProductTableSeeder extends Seeder
             'desc'=> '',
 
         ]);
+        DB::table('products')->insert([
+            'name' => 'Arab',
+            'parent_id' => null,
+            'desc'=> '',
+
+        ]);
         //make parent 2
         DB::table('products')->insert([
             'name' => 'indonesian',

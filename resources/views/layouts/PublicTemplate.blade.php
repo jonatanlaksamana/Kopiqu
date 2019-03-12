@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Sally Coffe</title>
 {{--css load--}}
-@extends('layouts.PageFoundation.CssLoad')
+@include('layouts.PageFoundation.CssLoad')
 
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
@@ -31,7 +31,7 @@
                             </button>
                             <!-- Brand -->
                             <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                                <h1><span>Coffe</span>Coffe</h1>
+                                <h1><span>Coffe</span>qu</h1>
 
                                 <!-- Uncomment below if you prefer to use an image logo -->
                                 <!-- <img src="img/logo.png" alt="" title=""> -->
@@ -52,6 +52,9 @@
 
                                 <li>
                                     <a class="page-scroll" href="#product">Product</a>
+                                </li>
+                                <li>
+                                    <a class="" href="{{route('order.view')}}">Order</a>
                                 </li>
                                 @guest
                                     <li class="nav-item">
@@ -97,8 +100,8 @@
 @yield('content')
 
 {{--footer--}}
-@extends('layouts.Snipsets.PublicFooter')
+@include('layouts.Snipsets.PublicFooter')
 {{--script load--}}
-@extends('layouts.PageFoundation.ScriptLoad')
+@include('layouts.PageFoundation.ScriptLoad')
 </body>
 </html>
