@@ -56,6 +56,7 @@
                                 <li>
                                     <a class="" href="{{route('order.view')}}">Order</a>
                                 </li>
+
                                 @guest
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -66,6 +67,11 @@
                                         </li>
                                     @endif
                                 @else
+                                    @if(Auth::user()->role === 'admin')
+                                        <li>
+                                            <a class="" href="{{route('admin.panel')}}">Admin</a>
+                                        </li>
+                                    @endif
                                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> {{ Auth::user()->name }}<span class="caret"></span></a>
                                         <ul class="dropdown-menu" role="menu">
                                             <li> <a class="dropdown-item" href="{{ route('logout') }}"

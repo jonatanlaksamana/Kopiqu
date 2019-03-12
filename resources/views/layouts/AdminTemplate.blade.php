@@ -66,10 +66,19 @@
                                         <div class="info clearfix">
                                             <div class="content">
                                                 <h5 class="name">
-                                                    <!-- INI BUAT NAMA ADMIN YA BOI -->
+
                                                     <a href="#">{{$adminlogin->name}}</a>
                                                 </h5>
                                                 <span class="email">{{$adminlogin->email}}</span>
+
+                                            </div>
+                                            <div class="content">
+                                                <h5 class="name">
+
+                                                    <a href="{{route('index')}}">home</a>
+                                                </h5>
+
+
                                             </div>
                                         </div>
                                         <div class="account-dropdown__body">
@@ -102,5 +111,16 @@
 
 
 @include('layouts.PageFoundation.AdminScript')
+<script>
+    $('#editorder').on('show.bs.modal', function (e) {
+        // do something...
+        var button = $(e.relatedTarget);
+        var data = button.data('orderid');
+
+        var modal = $(this);
+        modal.find('.modal-body #id').val(data);
+
+    })
+</script>
 </body>
 </html>

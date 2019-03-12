@@ -40,7 +40,7 @@ class OrderController extends Controller
         $randomValue = Rand(100,500);
         $newOrder = new Order;
         $newOrder->user_id = Auth::id();
-        $newOrder->payment_status = 'not_paid';
+        $newOrder->payment_status = 'Not Paid';
         $newOrder->payment_value = \request('total') - $randomValue;
         if($newOrder->save()){
             $orderdetails = Order::find($newOrder->id);

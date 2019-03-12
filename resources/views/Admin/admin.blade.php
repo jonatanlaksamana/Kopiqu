@@ -60,12 +60,14 @@
                                 </thead>
                                 <tbody>
                                 @foreach($products as $product)
+                                    @foreach($product->children  as $child)
                                     <tr>
-                                        <td>{{$product->name}}</td>
-                                        <td>{{$product->parent_id}}</td>
-                                        <td>{{$product->price}}</td>
+                                        <td>{{$child->name}}</td>
+                                        <td>{{$child->parent_id}}</td>
+                                        <td>{{$child->price}}</td>
 
                                     </tr>
+                                        @endforeach
 
                                 @endforeach
 

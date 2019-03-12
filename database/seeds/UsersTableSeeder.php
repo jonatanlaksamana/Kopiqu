@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'admin1',
             'email'=>'admin1@admin.com',
             'password'=> bcrypt('admin123'),
-            'role' => 'admin1',
+            'role' => 'admin',
         ]);
 
         //insert admin2
@@ -29,7 +29,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'admin2',
             'email'=>'admin2@admin.com',
             'password'=> bcrypt('admin123'),
-            'role' => 'admin2',
+            'role' => 'admin',
         ]);
 
         //insert admin3
@@ -39,7 +39,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'admin3',
             'email'=>'admin3@admin.com',
             'password'=> bcrypt('admin123'),
-            'role' => 'admin3',
+            'role' => 'admin',
         ]);
 
         //insert user

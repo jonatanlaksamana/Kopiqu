@@ -11,7 +11,7 @@ class User extends Authenticatable
     use Notifiable;
     const deafult = 'user';
     //multi auth admin
-    const role = ['admin1' , 'admin2' , 'admin3'];
+    const role = 'admin';
 
     /**
      * The attributes that are mass assignable.
@@ -42,7 +42,7 @@ class User extends Authenticatable
 
     public function isAdmin(){
         //check
-        if ($this->role === self::role[0] || $this->role === self::role[1] || $this->role === self::role[2]) {
+        if ($this->role === self::role) {
             return true;
         }
         else{
