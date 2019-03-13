@@ -6,6 +6,7 @@
         @csrf
         <fieldset>
 
+
             <!-- Form Name -->
             <legend>Edit Product</legend>
 
