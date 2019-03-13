@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-sm-2 hidden-xs">
                         <img src="{{asset('/storage/img/products/' .$products::find($item->id)->image ) }}" alt="..." class="img-responsive"/>
-                        <img src="{{secure_asset('/storage/img/products/' .$products::find($item->id)->image ) }}" alt="..." class="img-responsive"/>
+                        <img src="{{secure_asset('/img/products/' .$products::find($item->id)->image ) }}" alt="..." class="img-responsive"/>
                     </div>
                     <div class="col-sm-10">
                         <h4 class="nomargin">{{$item->name}}</h4>

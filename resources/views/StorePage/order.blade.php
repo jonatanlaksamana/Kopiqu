@@ -47,12 +47,12 @@
                                             <div class="awesome-img">
                                                 <a href="#">
                                                     <img src="{{asset('/storage/img/products/' .$child->image)}}" alt="" />
-                                                    <img src="{{secure_asset('/storage/img/products/' .$child->image)}}" alt="" />
+                                                    <img src="{{secure_asset('/img/products/' .$child->image)}}" alt="" />
                                                 </a>
                                                 <div class="add-actions text-center">
                                                     <div class="project-dec">
                                                         <a class="venobox" data-gall="myGallery" href="{{asset('/storage/img/products/' . $child->image)}}">
-                                                            <a class="venobox" data-gall="myGallery" href="{{secure_asset('/storage/img/products/' . $child->image)}}">
+                                                            <a class="venobox" data-gall="myGallery" href="{{secure_asset('/img/products/' . $child->image)}}">
                                                             <h4>{{$child->name}}</h4>
 
                                                         </a>
@@ -65,7 +65,7 @@
                                                 <a href="#">{{$child->name}}</a>
                                             </h4>
                                             <h5>Rp.{{$child->price}}</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                                            <p class="card-text">{{$child->desc}}</p>
                                         </div>
 
                                         <div class="card-footer">
