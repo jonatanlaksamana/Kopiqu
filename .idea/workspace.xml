@@ -2,11 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759e27c0-3e1b-4950-8eda-f0cf5744b9b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/AdminTemplate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/AdminTemplate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about/2jpg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/adminprofile/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/background/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/background/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/b02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/brand/brand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/brand/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/products/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/products/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/products/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/products/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/slider1 - Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/slider2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/slider3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/next.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-dots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-ios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-quads.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/venubox/prev.gif" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="-135">
+              <caret line="102" column="26" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="26" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -331,19 +366,6 @@
             <path>
               <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
               <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,48 +378,6 @@
               <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
               <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="PageFoundation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="PublicPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="StorePage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,16 +455,15 @@
       <workItem from="1552473307142" duration="121000" />
       <workItem from="1552477358672" duration="11413000" />
       <workItem from="1552492077542" duration="220000" />
-      <workItem from="1552501456045" duration="16772000" />
+      <workItem from="1552501456045" duration="17293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112343000" />
+    <option name="totallyTimeSpent" value="112864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32550335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -828,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="-135">
+          <caret line="102" column="26" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="26" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
