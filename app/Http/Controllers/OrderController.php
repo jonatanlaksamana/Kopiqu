@@ -50,7 +50,7 @@ class OrderController extends Controller
 
             \request()->session()->flush();
 
-            return redirect()->route('index')->with('success' ,'Your Order Has Been Proceed Thanks ');
+            return redirect()->route('order.view')->with('success' ,'Your Order Has Been Proceed Thanks ');
         }
         else{
             echo "fail";
@@ -67,7 +67,7 @@ class OrderController extends Controller
 
 
             $total = \Cart::getTotal();
-            return view('StorePage.PaymentInfo' , compact('items' ,'total' , 'products','totalQTY' ,'name' , 'total'));
+            return view('StorePage.PaymentInfo' , compact('items' ,'total' ,'totalQTY' ,'name' , 'total'));
         }
         else{
             return redirect()->back()->with('error','your shooping cart is empty');
