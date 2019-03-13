@@ -96,14 +96,14 @@ class AdminController extends Controller
         $product = new product;
         $image = \request('image');
         $dest = storage_path('/app/public/img/products');
-        $dest_heroku = public_path('/img/products');
+//        $dest_heroku = public_path('/img/products');
         $product->image = time() .".".$image->extension();
 //        uncomment this when heroku is done
 
-//        $image->move($dest,$product->image);
+        $image->move($dest,$product->image);
 
 //        move for heroku
-        $image->move($dest_heroku,$product->image);
+//        $image->move($dest_heroku,$product->image);
 
         $product->name = \request('name');
         $product->desc = \request('desc');

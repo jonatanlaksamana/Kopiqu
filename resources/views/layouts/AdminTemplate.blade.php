@@ -16,8 +16,8 @@
     <aside class="menu-sidebar d-none d-lg-block">
         <div class="logo">
             <a href="#">
-                {{--<img src="{{asset('storage/img/brand/logo.jpg')}}" width="40%" alt="KopiQu Admin" />--}}
-                <img src="{{secure_asset('storage/img/brand/logo.jpg')}}" width="40%" alt="KopiQu Admin" />
+                <img src="{{asset('storage/img/brand/logo.jpg')}}" width="40%" alt="KopiQu Admin" />
+                {{--<img src="{{secure_asset('storage/img/brand/logo.jpg')}}" width="40%" alt="KopiQu Admin" />--}}
 
 
             </a>
@@ -75,8 +75,8 @@
                                 <div class="account-item clearfix js-item-menu">
 
                                     <div class="image">
-                                        {{--<img src="{{asset('storage/img/adminprofile/profile.png')}}"  />--}}
-                                        <img src="{{secure_asset('/img/adminprofile/profile.png')}}"  />
+                                        <img src="{{asset('storage/img/adminprofile/profile.png')}}"  />
+                                        {{--<img src="{{secure_asset('/img/adminprofile/profile.png')}}"  />--}}
                                     </div>
                                     <div class="content">
                                         <a class="js-acc-btn" href="#"></a>
