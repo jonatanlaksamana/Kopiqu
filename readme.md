@@ -28,6 +28,7 @@ how to setup and run this app :
   - php artisan key:generate
 - setup database on .env file
   - php artisan migrate --seed 
+   -  php artisan serve
 
 After you run (migrate --seed) by deafult 
 you  got :
