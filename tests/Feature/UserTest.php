@@ -19,7 +19,7 @@ class UserTest extends TestCase
      $user = factory(User::class)->make();
      $response = $this->actingAs($user)->get('/order');
      $response->assertSuccessful();
-     $response->assertViewIs('StorePage.order');
+     $response->assertStatus(200);
  }
 
     public function test_get_cartpage(){
@@ -27,8 +27,8 @@ class UserTest extends TestCase
         $user = factory(User::class)->make();
         $response = $this->actingAs($user)->get('/cart');
         $response->assertSuccessful();
-        $response->assertViewIs('StorePage.ShoopingCart');
+        $response->assertStatus(200);
     }
 
-   
+
 }
