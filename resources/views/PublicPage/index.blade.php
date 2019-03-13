@@ -14,7 +14,7 @@
     <div class="bend niceties preview-2">
 
 
-        <div id="ensign-nivoslider" class="">
+        <div id="ensign-nivoslider" class="slides">
 
 
             {{--@foreach($sliders as $slide)--}}
@@ -57,7 +57,8 @@
 
 
 </div>
-</div>
+
+
 <!-- End Slider Area -->
 
 <!-- Start About area -->
