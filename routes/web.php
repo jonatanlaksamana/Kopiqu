@@ -21,11 +21,13 @@ Route::get('/','InterfaceController@index')->name('index');
 //order
 Route::get('/order' , 'OrderController@index')->name('order.view');
 Route::get('/cart' , 'OrderController@cart')->middleware('loginvertif')->name('order.cart');
-Route::POST('/cart','OrderController@save')->name('cart.store');
+Route::post('/cart','OrderController@save')->name('cart.store');
 route::post('/delete/{id}','OrderController@delete')->name('cart.delete');
 Route::post('/edit/{id}','OrderController@edit')->name('cart.edit');
-Route::post('/confirm', 'OrderController@confirm')->name('confirm.payment');
-Route::post('/confrimAddres/{id}' , 'OrderController@editAddres')->name('edit.order');
+
+Route::get('/order/confrim','OrderController@confrimpage')->name('view.confirmpage');
+Route::post('/order/confrim' , 'OrderController@storeOrder')->name('add.order');
+
 
 
 

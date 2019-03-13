@@ -15,57 +15,65 @@ class OrderController extends Controller
         return view('StorePage.order' , compact('prodcuts'));
     }
     public function cart(){
+
         $total = \Cart::getTotal();
         $items = \Cart::getContent();
-        $totalQTY= \Cart::getTotalQuantity();;
+        $totalQTY= \Cart::getTotalQuantity();
         $products = product::class;
-        return view('StorePage.ShoopingCart' , compact('items' ,'total' , 'products','totalQTY'));
+        return view('StorePage.ShoopingCart' , compact('items' ,'total' , 'products','totalQTY' ));
     }
 
     public function save(){
 
         $add = \Cart::add(\request('id'), \request('name'),  \request('price'),1);
         if($add){
-            return redirect()->route('order.cart')->with('success','Cart Added successfully!');;
+            return redirect()->route('order.cart')->with('success','Cart Added successfully!');
         }
     }
     public function delete($id){
          \Cart::remove($id);
-         return redirect()->route('order.cart')->with('success','Item Deleted From Cart!');;
+         return redirect()->route('order.cart')->with('success','Item Deleted From Cart!');
 
     }
 
-    public function confirm(){
+    public function storeOrder(){
+        $order = new Order;
+        $order->user_id = Auth::id();
+        $order->payment_status = 'Not Paid';
+        $order->payment_value = \request('price');
+        $order->addres = \request('addres');
+        $order->city = \request('city');
+        $order->state = \request('state');
+        $order->postcode= \request('postcode');
+        $order->country = \request('country');
+        if($order->save()){
 
-        $randomValue = Rand(100,500);
-        $newOrder = new Order;
-        $newOrder->user_id = Auth::id();
-        $newOrder->payment_status = 'Not Paid';
-        $newOrder->payment_value = \request('total') - $randomValue;
-        if($newOrder->save()){
-            $orderdetails = Order::find($newOrder->id);
+            \request()->session()->flush();
+
+            return redirect()->route('order.view')->with('success' ,'Your Order Has Been Proceed Thanks ');
+        }
+        else{
+            echo "fail";
+        }
+
+    }
+
+    public function confrimpage(){
+        $status = \Cart::isEmpty();
+        if(!$status){
+            $items = \Cart::getContent();
+            $totalQTY= \Cart::getTotalQuantity();
             $name = Auth::user()->name;
 
 
-            \Cart::clearCartConditions();
-            return view('StorePage.confirm' , compact('orderdetails' , 'name'))->with('success','Ordered has been created Fil your addres now!');;
+            $total = \Cart::getTotal();
+            return view('StorePage.PaymentInfo' , compact('items' ,'total' , 'products','totalQTY' ,'name' , 'total'));
         }
         else{
-            echo "gagal input";
+            return redirect()->back()->with('error','your shooping cart is empty');
         }
 
-
-
     }
-    public function editAddres($id){
-        $addres = \request('addres');
-        $order = Order::find($id);
-        $order->addres = $addres;
-        if($order->save()){
-            return redirect()->route('index')->with('success','Ordered has been procceed take a seat and enjoy your time!');;
-        }
 
-
-    }
 
 }

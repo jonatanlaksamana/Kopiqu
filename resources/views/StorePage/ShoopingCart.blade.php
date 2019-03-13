@@ -57,12 +57,13 @@
             <td colspan="2" class="hidden-xs"></td>
             <td class="hidden-xs text-center"><strong>Total: Rp.{{  ($totalQTY * 5000)+ $total}}</strong></td>
             <td>
-                <form method="post" action="{{route('confirm.payment')}}">
-                    @csrf
+
+
 
                     <input name="total" type="hidden"  value={{($totalQTY * 5000)+ $total}}>
-                    <input type="submit" href="#" value="Checkout" class="btn btn-success btn-block">
-                </form>
+
+                <a type="submit" href="{{route('view.confirmpage')}}"  class="btn btn-success btn-block">Checkout</a>
+
 
             </td>
         </tr>

@@ -2,6 +2,8 @@
 <style>
 
 </style>
+@include('layouts.Snipsets.FlashMessage')
+
 @section('content')
 
 
@@ -10,7 +12,11 @@
 <!-- Start Slider Area -->
 <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
+
+
         <div id="ensign-nivoslider" class="slides">
+            {{--flassh message--}}
+
             @foreach($sliders as $slide)
                 <img src="{{asset('storage/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">
             @endforeach
@@ -19,6 +25,7 @@
         </div>
 
         <!-- direction 1 -->
+
         @foreach($sliders as $slide)
             <div id="{{$slide->title}}" class="slider-direction">
                 <div class="container">
@@ -35,8 +42,8 @@
                                 </div>
                                 <!-- layer 3 -->
                                 <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <a class="ready-btn right-btn page-scroll" href="#services">Order Now</a>
-                                    <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                                    <a class="ready-btn right-btn page-scroll" href="{{route('order.view')}}">Order Now</a>
+
                                 </div>
                             </div>
                         </div>

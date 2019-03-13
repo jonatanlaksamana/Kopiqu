@@ -19,6 +19,10 @@ class CreateOrdersTable extends Migration
             $table->string('payment_status');
             $table->float('payment_value');
             $table->string('addres')->nullable();
+            $table->string('city')->nullable();
+            $table->string('state')->nullable();
+            $table->string('postcode')->nullable();
+            $table->string('country')->nullable();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
