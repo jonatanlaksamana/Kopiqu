@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759e27c0-3e1b-4950-8eda-f0cf5744b9b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin/editpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/editpage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="759e27c0-3e1b-4950-8eda-f0cf5744b9b7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -81,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="209">
+              <caret line="27" column="135" selection-start-line="27" selection-start-column="132" selection-end-line="27" selection-end-column="135" />
             </state>
           </provider>
         </entry>
@@ -319,6 +314,13 @@
               <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="StorePage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -397,12 +399,12 @@
       <workItem from="1552473307142" duration="121000" />
       <workItem from="1552477358672" duration="11413000" />
       <workItem from="1552492077542" duration="220000" />
-      <workItem from="1552501456045" duration="8476000" />
+      <workItem from="1552501456045" duration="9064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104047000" />
+    <option name="totallyTimeSpent" value="104635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -692,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/editpage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -743,8 +738,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        <state relative-caret-position="209">
+          <caret line="27" column="135" selection-start-line="27" selection-start-column="132" selection-end-line="27" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>

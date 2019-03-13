@@ -17,7 +17,7 @@ class AdminController extends Controller
             ->get();
         $products = product::whereNull('parent_id')->with('children')->get();
         $adminlogin = Auth::user();
-        return view('admin.admin' , compact('adminlogin','products','orders'))->with('success','Welcome to Admin Panel!');;
+        return view('admin.admin' , compact('adminlogin','products','orders'))->with('success','Welcome to admin Panel!');;
     }
 
 
