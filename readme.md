@@ -4,8 +4,8 @@ this project is made by :
 
 Kopiqu 
 
-Kopiku is a e-commerce website to expand 
-sally coffe shop , it can order procedure 
+Kopiku is a e-commerce website to help sally expand 
+her coffe shop 
 
 
 Apps Info :
