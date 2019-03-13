@@ -50,7 +50,7 @@ class OrderController extends Controller
 
             \request()->session()->flush();
 
-            return redirect()->route('order.view')->with('success' ,'Your Order Has Been Proceed Thanks ');
+            return redirect()->route('index')->with('success' ,'Your Order Has Been Proceed Thanks ');
         }
         else{
             echo "fail";
