@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759e27c0-3e1b-4950-8eda-f0cf5744b9b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/StorePage/order.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="67" column="79" selection-start-line="67" selection-start-column="79" selection-end-line="67" selection-end-column="79" />
+            <state>
+              <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -92,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="192">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -201,8 +199,8 @@
         <option value="$PROJECT_DIR$/resources/views/Admin/editpage.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/StorePage/order.blade.php" />
       </list>
     </option>
   </component>
@@ -409,12 +407,12 @@
       <workItem from="1552473307142" duration="121000" />
       <workItem from="1552477358672" duration="11413000" />
       <workItem from="1552492077542" duration="220000" />
-      <workItem from="1552501456045" duration="11940000" />
+      <workItem from="1552501456045" duration="12073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107511000" />
+    <option name="totallyTimeSpent" value="107644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -739,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/StorePage/order.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="67" column="79" selection-start-line="67" selection-start-column="79" selection-end-line="67" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/StorePage/PaymentInfo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-97">
@@ -755,8 +746,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="192">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/StorePage/order.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
         </state>
       </provider>
     </entry>

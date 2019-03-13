@@ -46,12 +46,12 @@
                                         <div class="single-awesome-project">
                                             <div class="awesome-img">
                                                 <a href="#">
-                                                    <img src="{{asset('/storage/img/products/' .$child->image)}}" alt="" />
+                                                    {{--<img src="{{asset('/storage/img/products/' .$child->image)}}" alt="" />--}}
                                                     <img src="{{secure_asset('/img/products/' .$child->image)}}" alt="" />
                                                 </a>
                                                 <div class="add-actions text-center">
                                                     <div class="project-dec">
-                                                        <a class="venobox" data-gall="myGallery" href="{{asset('/storage/img/products/' . $child->image)}}">
+                                                        {{--<a class="venobox" data-gall="myGallery" href="{{asset('/storage/img/products/' . $child->image)}}">--}}
                                                             <a class="venobox" data-gall="myGallery" href="{{secure_asset('/img/products/' . $child->image)}}">
                                                             <h4>{{$child->name}}</h4>
 
