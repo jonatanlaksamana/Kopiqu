@@ -42,7 +42,7 @@
                     </li>
 
                     <li>
-                        <a   href="{{route('index')}}"><i class="fa fa-home"></i>home</a>
+                        <a   href="{{route('index')}}"><i class="fa fa-home"></i> Back tohome</a>
                     </li>
 
 
