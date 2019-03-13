@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759e27c0-3e1b-4950-8eda-f0cf5744b9b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/about/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/about/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/about/2jpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/adminprofile/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/background/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/background/slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/b02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand/brand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/products/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/products/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/products/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/products/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/products/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/products/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider/slider1 - Copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider/slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider/slider2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider/slider3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/team/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-dots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-ios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-quads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/venubox/prev.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -67,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/PublicPage/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="208" column="111" selection-start-line="208" selection-start-column="111" selection-end-line="208" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -312,20 +351,33 @@
             <path>
               <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
               <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
               <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
               <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="PublicPage" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kopiqu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kopiqu" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -342,18 +394,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kopiqu\public" />
+      <recent name="D:\kopiqu\public\css" />
+      <recent name="D:\kopiqu\public\js" />
+      <recent name="D:\kopiqu\resources\views\layouts" />
+      <recent name="D:\kopiqu\storage\app\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\kopiqu\resources\views\layouts" />
       <recent name="D:\kopiqu\resources\views\layouts\Snipsets" />
       <recent name="D:\kopiqu\storage\app\public" />
       <recent name="D:\kopiqu\public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\kopiqu\public\css" />
-      <recent name="D:\kopiqu\public\js" />
-      <recent name="D:\kopiqu\public" />
-      <recent name="D:\kopiqu\resources\views\layouts" />
-      <recent name="D:\kopiqu\storage\app\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,12 +455,12 @@
       <workItem from="1552473307142" duration="121000" />
       <workItem from="1552477358672" duration="11413000" />
       <workItem from="1552492077542" duration="220000" />
-      <workItem from="1552501456045" duration="10107000" />
+      <workItem from="1552501456045" duration="10653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105678000" />
+    <option name="totallyTimeSpent" value="106224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -740,7 +792,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
@@ -749,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/PublicPage/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="208" column="111" selection-start-line="208" selection-start-column="111" selection-end-line="208" selection-end-column="111" />
         </state>
       </provider>
     </entry>

@@ -18,8 +18,8 @@
             {{--flassh message--}}
 
             @foreach($sliders as $slide)
-                <img src="{{asset('storage/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">
-             
+                <img src="{{asset('/storage/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">
+                <img src="{{secure_asset('/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">
             @endforeach
 
 
@@ -76,7 +76,7 @@
                     <div class="single-well">
                         <a href="#">
                             <img src=" {{asset('/storage/img/about/1.jpg')}}" alt="">
-                            <img src=" {{secure_asset('/storage/img/about/1.jpg')}}" alt="">
+                            <img src=" {{secure_asset('/img/about/1.jpg')}}" alt="">
                         </a>
                     </div>
                 </div>
@@ -145,8 +145,8 @@
     <div class="work-us">
         <div class="work-left-text">
             <a href="#">
-                <img src=" {{asset('storage/img/about/2.jpg')}}" alt="">
-                <img src=" {{secure_asset('storage/img/about/2.jpg')}}" alt="">
+                <img src=" {{asset('/storage/img/about/2.jpg')}}" alt="">
+                <img src=" {{secure_asset('/img/about/2.jpg')}}" alt="">
             </a>
         </div>
         <div class="work-right-text text-center">
@@ -200,13 +200,13 @@
                                 <div class="awesome-img">
                                     <a href="#">
                                         <img src="{{asset('/storage/img/products/' .$child->image)}}" alt="" />
-                                        <img src="{{secure_asset('/storage/img/products/' .$child->image)}}" alt="" />
+                                        <img src="{{secure_asset('/img/products/' .$child->image)}}" alt="" />
 
                                     </a>
                                     <div class="add-actions text-center">
                                         <div class="project-dec">
                                             <a class="venobox" data-gall="myGallery" href="{{asset('/storage/img/products/' . $child->image)}}">
-                                                <a class="venobox" data-gall="myGallery" href="{{secure_asset('/storage/img/products/' . $child->image)}}">
+                                                <a class="venobox" data-gall="myGallery" href="{{secure_asset('/img/products/' . $child->image)}}">
                                                 <h4>{{$child->name}}</h4>
 
                                             </a>
