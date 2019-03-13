@@ -22,14 +22,12 @@ class AdminTest extends TestCase
     public function test_admin_ProductList(){
         $user = factory(User::class)->make();
         $response = $this->actingAs($user)->get('/admin/products');
-
         $response->assertSee('Products');
     }
 
     public function test_admin_orderlist(){
         $user = factory(User::class)->make();
         $response = $this->actingAs($user)->get('/admin/orders');
-
         $response->assertSee('Orders');
 
     }
