@@ -41,7 +41,7 @@ you  got :
 i already make a automated test with travis-ci here is the link:
 - https://travis-ci.org/jonatanlaksamana/Kopiqu/branches
 
-i already deply to heroku here is the link:
+i already deploy to heroku here is the link:
 - https://coffequ.herokuapp.com/
 
 to run  test, go to root folder and type :
