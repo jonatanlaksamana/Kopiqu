@@ -105,12 +105,14 @@
                 </div>
             </div>
         </header>
+
 @yield('content')
     </div>
 </div>
 
 
 @include('layouts.PageFoundation.AdminScript')
+{{--editing in modal for order page--}}
 <script>
     $('#editorder').on('show.bs.modal', function (e) {
         // do something...

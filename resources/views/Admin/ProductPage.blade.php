@@ -9,10 +9,12 @@
             <div class="section__content section__content--p30">
                 <div class="container-fluid">
                     <button type="button" class="btn btn-success btn-lg my-5" data-toggle="modal" data-target="#addChildModal"> Add Product (child) </button>
-                    <button type="button" class="btn btn-success btn-lg my-5" data-toggle="modal" data-target="#addParentModal"> Add  Parent </button>
+                    <button type="button" class="btn btn-success btn-lg my-5" data-toggle="modal" data-target="#addParentModal"> Add  Category </button>
                     <div class="row">
 
                         <div class="col-lg-12">
+                            {{--flassh message--}}
+                            @include('layouts.Snipsets.FlashMessage')
                             <h2 class="title-1 m-b-25">Products</h2>
                             <div class="table-responsive table--no-card m-b-40">
                                 <table class="table table-borderless table-striped table-earning">

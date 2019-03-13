@@ -26,12 +26,12 @@ class OrderController extends Controller
 
         $add = \Cart::add(\request('id'), \request('name'),  \request('price'),1);
         if($add){
-            return redirect()->route('order.cart');
+            return redirect()->route('order.cart')->with('success','Cart Added successfully!');;
         }
     }
     public function delete($id){
          \Cart::remove($id);
-         return redirect()->route('order.cart');
+         return redirect()->route('order.cart')->with('success','Item Deleted From Cart!');;
 
     }
 
@@ -48,7 +48,7 @@ class OrderController extends Controller
 
 
             \Cart::clearCartConditions();
-            return view('StorePage.confirm' , compact('orderdetails' , 'name'));
+            return view('StorePage.confirm' , compact('orderdetails' , 'name'))->with('success','Ordered has been created Fil your addres now!');;
         }
         else{
             echo "gagal input";
@@ -62,7 +62,7 @@ class OrderController extends Controller
         $order = Order::find($id);
         $order->addres = $addres;
         if($order->save()){
-            return redirect()->route('index');
+            return redirect()->route('index')->with('success','Ordered has been procceed take a seat and enjoy your time!');;
         }
 
 

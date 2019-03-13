@@ -30,11 +30,10 @@ Route::post('/confrimAddres/{id}' , 'OrderController@editAddres')->name('edit.or
 
 
 
-//admin
+//admin view
 Route::get('/admin', 'AdminController@index')->middleware('admin')->name('admin.panel');
 Route::get('/admin/products', 'AdminController@products')->name('view.productlist');
 Route::get('/admin/orders' , 'AdminController@orders')->name('view.orderlist');
-//crud for product in admin
 //delete product
 Route::post('/admin/delete/product/{id}' , 'AdminController@destroyProduct')->name('delete.product');
 //edit page

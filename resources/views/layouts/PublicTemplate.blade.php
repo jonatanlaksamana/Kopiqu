@@ -101,7 +101,8 @@
     <!-- header-area end -->
 </header>
 
-
+{{--flassh message--}}
+@include('layouts.Snipsets.FlashMessage')
 {{--content--}}
 @yield('content')
 

@@ -10,6 +10,8 @@
                     <div class="row">
 
                         <div class="col-lg-12">
+                            {{--flassh message--}}
+                            @include('layouts.Snipsets.FlashMessage')
                             <h2 class="title-1 m-b-25">Orders</h2>
                             <div class="table-responsive table--no-card m-b-40">
                                 <table class="table table-borderless table-striped table-earning">

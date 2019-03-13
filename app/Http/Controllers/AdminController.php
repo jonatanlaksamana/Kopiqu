@@ -17,7 +17,7 @@ class AdminController extends Controller
             ->get();
         $products = product::whereNull('parent_id')->with('children')->get();
         $adminlogin = Auth::user();
-        return view('admin.admin' , compact('adminlogin','products','orders'));
+        return view('admin.admin' , compact('adminlogin','products','orders'))->with('success','Welcome to Admin Panel!');;
     }
 
 
@@ -51,7 +51,7 @@ class AdminController extends Controller
     public function destroyProduct($id){
         $product = product::find($id);
         if($product->delete()){
-            return redirect()->route('view.productlist');
+            return redirect()->route('view.productlist')->with('success','Product has been deleted!');;
         }
     }
 
@@ -69,7 +69,7 @@ class AdminController extends Controller
         $product->price = $price;
 
         if($product->save()){
-            return redirect()->route('view.productlist');
+            return redirect()->route('view.productlist')->with('success','Product Edit Succesfuly');;
         }
 
     }
@@ -104,7 +104,7 @@ class AdminController extends Controller
         $product->price = \request('price');
         $product->parent_id = \request('parentid');
         if($product->save()){
-          return  redirect()->route('view.productlist');
+          return  redirect()->route('view.productlist')->with('success','new item successfully added!');;
         }
 
     }
@@ -118,7 +118,7 @@ class AdminController extends Controller
         $product->name = \request('name');
         $product->desc = "";
         if($product->save()){
-            return  redirect()->route('view.productlist');
+            return  redirect()->route('view.productlist')->with('success','new category successfully added ! ');;
         }
     }
 
@@ -127,7 +127,7 @@ class AdminController extends Controller
         $option = \request('select');
         $order->payment_status = $option;
         if($order->save()){
-            return redirect()->route('view.orderlist');
+            return redirect()->route('view.orderlist')->with('success','Order has been edited!');;
         }
 
     }
