@@ -15,10 +15,10 @@
 
 
         <div id="ensign-nivoslider" class="slides">
-            {{--flassh message--}}
+            flassh message
 
             @foreach($sliders as $slide)
-                <img src="{{asset('/storage/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">
+                {{--<img src="{{asset('/storage/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">--}}
                 <img src="{{secure_asset('/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">
             @endforeach
 

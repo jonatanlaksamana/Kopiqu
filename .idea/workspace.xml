@@ -2,46 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759e27c0-3e1b-4950-8eda-f0cf5744b9b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/about/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/about/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/about/2jpg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/adminprofile/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/background/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/background/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blog/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blog/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blog/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blog/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blog/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blog/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blog/b02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/brand/brand.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/brand/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slider/slider1 - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slider/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slider/slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slider/slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/team/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/team/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/team/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/team/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/next.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-dots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-ios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload-quads.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/preload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/venubox/prev.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/PublicPage/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/PublicPage/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="208" column="111" selection-start-line="208" selection-start-column="111" selection-end-line="208" selection-end-column="111" />
+            <state relative-caret-position="357">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -455,12 +415,12 @@
       <workItem from="1552473307142" duration="121000" />
       <workItem from="1552477358672" duration="11413000" />
       <workItem from="1552492077542" duration="220000" />
-      <workItem from="1552501456045" duration="10653000" />
+      <workItem from="1552501456045" duration="10860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106224000" />
+    <option name="totallyTimeSpent" value="106431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -801,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/PublicPage/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="208" column="111" selection-start-line="208" selection-start-column="111" selection-end-line="208" selection-end-column="111" />
+        <state relative-caret-position="357">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>
