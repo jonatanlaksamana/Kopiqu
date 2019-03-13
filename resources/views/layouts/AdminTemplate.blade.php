@@ -16,7 +16,10 @@
     <aside class="menu-sidebar d-none d-lg-block">
         <div class="logo">
             <a href="#">
-                <img src="{{asset('storage/img/brand/logo.jpg')}}" width="40%" alt="KopiQu Admin" />
+                {{--<img src="{{asset('storage/img/brand/logo.jpg')}}" width="40%" alt="KopiQu Admin" />--}}
+                <img src="{{secure_asset('storage/img/brand/logo.jpg')}}" width="40%" alt="KopiQu Admin" />
+
+
             </a>
         </div>
         <div class="menu-sidebar__content js-scrollbar1">
@@ -38,6 +41,11 @@
                             <i class="fas fa-table"></i>OrderList</a>
                     </li>
 
+                    <li>
+                        <a   href="{{route('index')}}"><i class="fa fa-home"></i>home</a>
+                    </li>
+
+
 
                 </ul>
             </nav>
@@ -53,11 +61,22 @@
                 <div class="container-fluid">
                     <div class="header-wrap">
                         <div class="header-button">
+                            <div class="header-button">
+                                <div class="noti-wrap">
+
+
+
+
+
+
+                                </div>
 
                             <div class="account-wrap">
                                 <div class="account-item clearfix js-item-menu">
+
                                     <div class="image">
-                                        <img src="{{asset('storage/img/adminprofile/profile.png')}}"  />
+                                        {{--<img src="{{asset('storage/img/adminprofile/profile.png')}}"  />--}}
+                                        <img src="{{secure_asset('/img/adminprofile/profile.png')}}"  />
                                     </div>
                                     <div class="content">
                                         <a class="js-acc-btn" href="#"></a>

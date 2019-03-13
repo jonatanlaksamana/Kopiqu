@@ -41,7 +41,7 @@ class AdminController extends Controller
             ->leftJoin('users', 'orders.user_id', '=', 'users.id')
             ->get();
         $adminlogin = Auth::user();
-        return view('admin.OrderPage',compact('adminlogin' , 'orders'));
+        return view('admin.orderpage',compact('adminlogin' , 'orders'));
     }
 
 
@@ -98,6 +98,8 @@ class AdminController extends Controller
         $dest = storage_path('/app/public/img/products');
         $dest_heroku = public_path('/img/products');
         $product->image = time() .".".$image->extension();
+//        uncomment this when heroku is done
+
 //        $image->move($dest,$product->image);
 
 //        move for heroku
