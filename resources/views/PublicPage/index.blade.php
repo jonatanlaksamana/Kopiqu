@@ -14,7 +14,7 @@
     <div class="bend niceties preview-2">
 
 
-        <div id="ensign-nivoslider" class="slides">
+        {{--<div id="ensign-nivoslider" class="slides">--}}
 
 
             {{--@foreach($sliders as $slide)--}}
@@ -23,7 +23,7 @@
             {{--@endforeach--}}
 
 
-        </div>
+        {{--</div>--}}
 
         <!-- direction 1 -->
 
