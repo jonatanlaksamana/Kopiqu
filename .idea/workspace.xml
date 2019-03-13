@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759e27c0-3e1b-4950-8eda-f0cf5744b9b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/img/about/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/about/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/about/2jpg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/adminprofile/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/background/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/background/slider1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/b02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/brand/brand.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/brand/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/slider1 - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/slider1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/slider2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/slider3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/team/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/team/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/team/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/team/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/next.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-dots.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-ios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload-quads.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/preload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/venubox/prev.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-135">
@@ -110,11 +71,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/StorePage/PaymentInfo.blade.php">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="284" column="58" selection-start-line="284" selection-start-column="58" selection-end-line="284" selection-end-column="58" />
+            <state relative-caret-position="341">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -147,15 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="36" column="41" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/PublicTemplate.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -236,7 +200,6 @@
         <option value="$PROJECT_DIR$/tests/Feature/UserTest.php" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/tests/Feature/AdminTest.php" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/resources/views/layouts/PublicTemplate.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_12_094741_create_orders_table.php" />
@@ -256,6 +219,7 @@
         <option value="$PROJECT_DIR$/resources/views/StorePage/ShoopingCart.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/AdminTemplate.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -455,15 +419,16 @@
       <workItem from="1552473307142" duration="121000" />
       <workItem from="1552477358672" duration="11413000" />
       <workItem from="1552492077542" duration="220000" />
-      <workItem from="1552501456045" duration="17293000" />
+      <workItem from="1552501456045" duration="17845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112864000" />
+    <option name="totallyTimeSpent" value="113416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32550335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -556,16 +521,6 @@
     <entry file="file://$PROJECT_DIR$/storage/app/public/img/products/1552408299.jpeg" />
     <entry file="file://$PROJECT_DIR$/storage/app/public/img/products/1552408280.jpeg" />
     <entry file="file://$PROJECT_DIR$/storage/app/public/img/products/1552407582.jpeg" />
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_12_094741_create_orders_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -615,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -812,6 +760,23 @@
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
