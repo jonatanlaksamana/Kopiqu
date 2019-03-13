@@ -17,8 +17,7 @@ class AdminTest extends TestCase
    public function test_admin_login(){
        $user = factory(User::class)->make();
        $response = $this->actingAs($user)->get('/admin');
-       $response->assertSuccessful();
-       $response->assertSee('Dashboard Admin');
+       $response->assertSee('Dashboard');
    }
     public function test_admin_ProductList(){
         $user = factory(User::class)->make();
