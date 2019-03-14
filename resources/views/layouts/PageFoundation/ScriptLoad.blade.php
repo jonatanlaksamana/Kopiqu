@@ -12,6 +12,11 @@
 <script src="{{asset('/js/main.js')}}"></script>
 
 
+
+
+
+
+
 {{--for heroku--}}
 <script src="{{secure_asset('/lib/jquery/jquery.min.js')}}"></script>
 <script src="{{secure_asset('/lib/bootstrap/js/bootstrap.min.js')}}"></script>
