@@ -18,7 +18,7 @@
 
 
             {{--@foreach($sliders as $slide)--}}
-                {{--<img src="{{asset('/storage/img/slider/' . $slide->image)}}" title="#{{$slide->title}}">--}}
+               
                 <img src="{{secure_asset('/img/slider/' . $sliders[0]->image)}}" title="#{{$sliders[0]->title}}">
             {{--@endforeach--}}
 
