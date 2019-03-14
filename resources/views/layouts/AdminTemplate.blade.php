@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin Panel</title>
 @include('layouts.PageFoundation.AdminCSS')
+
+
+
 </head>
 <body class="animsition">
 <div class="page-wrapper">
