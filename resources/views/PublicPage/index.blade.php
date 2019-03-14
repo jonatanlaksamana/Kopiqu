@@ -92,7 +92,7 @@
                         <a href="#">
                             <h4 class="sec-head">Welcome to Sally Coffe Shop!!!</h4>
                         </a>
-                        <p>Sally Coffe has built a strong reputation for offering a wide variety of quality Coffe products that include delightful Brazilian ,Indonesiam , Arabic.</p>
+                        <p>Sally Coffe's has built a strong reputation for offering a wide variety of quality Coffe products that include delightful Brazilian ,Indonesiam , Arabic.</p>
                         <h5>Come experience something new! </h5>
                     </div>
                 </div>
